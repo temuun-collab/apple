@@ -378,7 +378,7 @@
   }
 }
 
-@media only screen and (max-width: 480) {
+@media only screen and (max-width: 480px) {
   .navbar-button {
     display: flex;
     display: none;
@@ -402,7 +402,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    overflow: hidden;
   }
   .heading-photo3 {
     display: none;
