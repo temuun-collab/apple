@@ -1,0 +1,492 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.navbar-button {
+  color: black;
+  font-size: 12px;
+  background-color: transparent;
+  border: 0;
+}
+.navbar-text {
+  color: black;
+  font-size: 16px;
+  background-color: transparent;
+  border: 0;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  gap: 24px;
+  background-color: #fffcfc;
+  width: 100vw;
+}
+.navbar1 {
+  display: flex;
+  justify-content: center;
+  height: 44px;
+  gap: 4px;
+  background-color: white;
+  flex-direction: column;
+}
+.Hero-img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.text {
+  font-size: 52px;
+  color: rgb(243, 235, 235);
+  font-weight: 600;
+}
+.text1 {
+  font-size: 24px;
+  color: rgb(249, 247, 247);
+  font-weight: 400;
+}
+.text2 {
+  font-size: 24px;
+  color: rgb(16, 2, 2);
+  font-weight: 400;
+}
+.text3 {
+  font-size: 52px;
+  color: rgb(12, 1, 1);
+  font-weight: 600;
+}
+.text7 {
+  font-size: 14px;
+  color: rgb(254, 254, 254);
+  justify-content: center;
+  align-items: center;
+}
+
+.text8 {
+  font-size: 27px;
+  color: rgb(250, 250, 250);
+  margin-top: 2px;
+  justify-content: center;
+  align-items: center;
+}
+.text9 {
+  font-size: 27px;
+  color: rgb(8, 6, 6);
+  margin-top: 2px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.text10 {
+  font-size: 14px;
+  color: rgb(3, 0, 0);
+  margin-top: 2px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.text11 {
+  font-size: 13px;
+  color: rgb(8, 1, 1);
+}
+.Hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  aspect-ratio: 2.7;
+  gap: 15px;
+  overflow: hidden;
+}
+
+.button {
+  border-radius: 50px;
+  gap: 16px;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+}
+.logo {
+  width: 20;
+  height: 25;
+  flex-direction: row;
+}
+
+.scrollphoto {
+  width: 100vw;
+  gap: 12px;
+  overflow-x: scroll;
+  display: flex;
+}
+.scrollphoto1 {
+  width: 100vw;
+  gap: 12px;
+  overflow-x: scroll;
+  display: flex;
+}
+.scroll {
+  flex-shrink: 0;
+  width: 1250px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  padding-left: 78px;
+  padding-bottom: 50px;
+}
+.scroll-img {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.scroll1 {
+  flex-shrink: 0;
+  width: 420px;
+  position: relative;
+  display: flex;
+  aspect-ratio: 1.7;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+.scroll2 {
+  flex-shrink: 0;
+  width: 420px;
+  position: relative;
+  display: flex;
+  aspect-ratio: 1.7;
+  justify-content: center;
+  align-items: center;
+  padding-left: 62px;
+  padding-top: 18px;
+  padding-left: 62px;
+}
+.scroll1-img {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.scroll2-img {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+
+  height: 236px;
+}
+.logo1 {
+  display: flex;
+  position: relative;
+  aspect-ratio: 1.7;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 77px;
+  height: 14px;
+  padding-left: 80px;
+  flex-shrink: 0;
+}
+.dot-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0px;
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: black;
+  opacity: 0.45;
+}
+.active-dot {
+  opacity: 0.8;
+}
+.heading-photo {
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+  width: 100vw;
+}
+.heading8 {
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+  width: 100vw;
+}
+.heading9 {
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+  width: 100vw;
+}
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.heading-photo1 {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  width: 49%;
+  position: relative;
+  aspect-ratio: 1.8;
+  gap: 12px;
+}
+.heading-photo2 {
+  display: flex;
+  justify-content: flex-start;
+  width: 49%;
+  position: relative;
+  aspect-ratio: 1.8;
+  gap: 12px;
+}
+.scrollphoto1-item {
+  position: relative;
+}
+.scroll-text {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.hero1-img {
+  display: none;
+  position: absolute;
+  z-index: -1;
+}
+.hero2-img {
+  display: none;
+}
+.heading-photo3 {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.heading-photo4 {
+  display: none;
+  position: absolute;
+  z-index: -1;
+}
+.heading-photo5 {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.heading-photo6 {
+  position: absolute;
+  z-index: -1;
+  display: none;
+}
+.heading-text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.hero-text {
+  padding-top: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.text-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.nav-global {
+  display: flex;
+  flex-direction: row;
+}
+.nav-global1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 15px;
+}
+
+@media only screen and (max-width: 780px) {
+  .navbar-button {
+    display: flex;
+    display: none;
+  }
+  .navbar {
+    justify-content: space-between;
+  }
+  .text {
+    font-size: 42px;
+  }
+  .text3 {
+    font-size: 42px;
+  }
+  .Hero {
+    height: 650px;
+    background-position: center;
+    gap: 10px;
+  }
+  .heading-photo1 {
+    width: 380px;
+    gap: 10px;
+    height: 490px;
+    object-fit: fill;
+    background-position: center;
+  }
+  .heading-photo2 {
+    width: 380px;
+    gap: 10px;
+    height: 490px;
+    object-fit: fill;
+    background-position: center;
+  }
+  .scrollphoto {
+    overflow-y: hidden;
+    height: 368px;
+  }
+  .scroll {
+    width: 650px;
+  }
+  .scroll-text {
+    font-size: 14px;
+  }
+  .logo1 {
+    width: 45px;
+    height: 10px;
+  }
+  .scroll2-img {
+    width: 417px;
+    height: 236px;
+  }
+  .logo1 {
+    width: 45px;
+    height: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar-button {
+    display: flex;
+    display: none;
+  }
+  .navbar {
+    justify-content: space-between;
+  }
+  .text {
+    font-size: 14px;
+  }
+  .text3 {
+    font-size: 14px;
+  }
+  .Hero {
+    height: 500px;
+    background-position: center;
+    gap: 10px;
+    justify-content: end;
+  }
+  .heading {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .heading-photo3 {
+    display: none;
+  }
+  .heading8 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .heading-photo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .heading9 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .heading-photo1 {
+    width: 100%;
+    gap: 10px;
+    height: 500px;
+  }
+  .heading-photo2 {
+    width: 100%;
+    gap: 10px;
+    height: 500px;
+  }
+  .scrollphoto {
+    overflow-y: hidden;
+  }
+  .scroll1-img {
+    height: 134px;
+    width: 238px;
+    gap: 5px;
+  }
+  .scroll {
+    width: 650px;
+  }
+  .scroll1 {
+    width: 240px;
+  }
+  .scroll2 {
+    width: 240px;
+  }
+  .scroll-text {
+    font-size: 12px;
+  }
+  .logo1 {
+    width: 41px;
+    height: 9px;
+  }
+  .Hero-img {
+    display: none;
+  }
+  .hero1-img {
+    display: block;
+    width: 480px;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+  }
+  .heading-photo4 {
+    display: block;
+    height: 500px;
+    object-fit: cover;
+    width: 480px;
+  }
+  .heading-photo5 {
+    display: none;
+  }
+  .heading-photo6 {
+    display: block;
+    height: 500px;
+    object-fit: cover;
+    width: 480px;
+  }
+  .heading-text {
+    justify-content: end;
+    padding-bottom: 20px;
+  }
+  .scroll2-img {
+    width: 238px;
+    height: 134px;
+  }
+}
