@@ -378,7 +378,7 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480) {
   .navbar-button {
     display: flex;
     display: none;
@@ -402,6 +402,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    overflow: hidden;
   }
   .heading-photo3 {
     display: none;
@@ -479,7 +480,7 @@
     display: block;
     height: 500px;
     object-fit: cover;
-    width: 390px;
+    width: 480px;
   }
   .heading-text {
     justify-content: end;
