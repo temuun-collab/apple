@@ -485,7 +485,7 @@
     display: block;
     height: 500px;
     object-fit: cover;
-    width: 390px;
+    width: 380px;
     position: absolute;
     z-index: -1;
   }
